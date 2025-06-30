@@ -1,3 +1,3 @@
 ---
-title: Welcome to my blog!
+ABOUT: Rafa VR Portfolio
 ---
