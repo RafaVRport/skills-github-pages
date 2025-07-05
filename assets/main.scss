@@ -20,13 +20,32 @@ h1, h2, h3, h4, h5, h6 {
   color: #98fb98;
 }
 
+.site-title {
+  font-family: 'Courier New', monospace;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 0.25em;
+}
+
+/* Bright neon green + glowing effect */
 .site-title a {
   color: #7CFC00;
   text-decoration: none;
+  text-shadow:
+    0 0 2px #7CFC00,
+    0 0 5px #39FF14,
+    0 0 10px #32CD32;
+  transition: all 0.3s ease-in-out;
 }
 
+/* Hover glow intensifies */
 .site-title a:hover {
   color: #ADFF2F;
-  text-shadow: 0 0 6px #7CFC00;
+  text-shadow:
+    0 0 3px #ADFF2F,
+    0 0 7px #ADFF2F,
+    0 0 14px #ADFF2F;
+  cursor: crosshair;
 }
 
