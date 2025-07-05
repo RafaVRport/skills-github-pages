@@ -61,4 +61,25 @@ h1, h2, h3, h4, h5, h6 {
   25%, 75% { opacity: 0; }
 }
 
+/* Terminal flicker for Recent Posts heading */
+h2 {
+  color: #7CFC00;
+  font-family: 'Courier New', monospace;
+  text-shadow: 0 0 5px #7CFC00;
+  animation: flicker 2s infinite;
+}
+
+/* Flicker animation */
+@keyframes flicker {
+  0%   { opacity: 1; }
+  5%   { opacity: 0.4; }
+  10%  { opacity: 1; }
+  12%  { opacity: 0.2; }
+  15%  { opacity: 1; }
+  30%  { opacity: 0.7; }
+  50%  { opacity: 1; }
+  70%  { opacity: 0.3; }
+  85%  { opacity: 1; }
+  100% { opacity: 0.95; }
+}
 
