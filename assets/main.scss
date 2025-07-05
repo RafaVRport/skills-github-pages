@@ -20,24 +20,37 @@ h1, h2, h3, h4, h5, h6 {
   color: #98fb98;
 }
 
-.site-title {
+/* === Shell prompt-style underline for site title === */
+.site-title a {
+  position: relative;
+  color: #7CFC00;
   font-family: 'Courier New', monospace;
-  font-size: 28px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  padding: 0.25em;
+  text-decoration: none;
 }
 
-/* Bright neon green + glowing effect */
-.site-title a {
-  color: #7CFC00;
-  text-decoration: none;
-  text-shadow:
-    0 0 2px #7CFC00,
-    0 0 5px #39FF14,
-    0 0 10px #32CD32;
-  transition: all 0.3s ease-in-out;
+/* Glowing underline effect */
+.site-title a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background: #7CFC00;
+  box-shadow: 0 0 4px #7CFC00, 0 0 6px #32CD32;
+  animation: pulse-underline 1.2s infinite;
 }
+
+/* Animation for pulse effect */
+@keyframes pulse-underline {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
 
 /* Hover glow intensifies */
 .site-title a:hover {
