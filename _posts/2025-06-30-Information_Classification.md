@@ -1,4 +1,9 @@
 ---
+layout: default
+title: Welcome
+---
+
+---
 title: "Information Classification; A Presentation"
 date: 2025-06-30
 ---
