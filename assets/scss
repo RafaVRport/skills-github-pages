@@ -1,0 +1,10 @@
+---
+---
+
+@import "minima";
+
+/* Your custom styles here */
+body {
+  background-color: #1c1c1c;
+  color: #90ee90;
+}
