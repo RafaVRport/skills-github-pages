@@ -1,0 +1,20 @@
+/* Dark grey background with light green text */
+body {
+  background-color: #1c1c1c; /* dark grey */
+  color: #90ee90; /* light green */
+  font-family: 'Courier New', monospace;
+}
+
+/* Optional: Style links */
+a {
+  color: #7CFC00; /* lawn green */
+}
+
+a:hover {
+  color: #ADFF2F; /* green yellow */
+}
+
+/* Optional: Headers */
+h1, h2, h3, h4, h5, h6 {
+  color: #98fb98; /* pale green */
+}
