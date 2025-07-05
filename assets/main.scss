@@ -20,10 +20,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #98fb98;
 }
 
-.site-title {
-  color: #7CFC00; /* bright lawn green */
+.site-title a {
+  color: #7CFC00;
+  text-decoration: none;
 }
 
-.site-title:hover {
-  text-shadow: 0 0 8px #7CFC00;
+.site-title a:hover {
+  color: #ADFF2F;
+  text-shadow: 0 0 6px #7CFC00;
 }
+
