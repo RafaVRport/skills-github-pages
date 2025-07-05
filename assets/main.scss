@@ -1,1 +1,21 @@
+---
+---
+
 @import "minima";
+
+body {
+  background-color: #1c1c1c;
+  color: #90ee90;
+  font-family: 'Courier New', monospace;
+}
+
+a {
+  color: #7CFC00;
+}
+a:hover {
+  color: #ADFF2F;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #98fb98;
+}
