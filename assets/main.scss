@@ -49,3 +49,16 @@ h1, h2, h3, h4, h5, h6 {
   cursor: crosshair;
 }
 
+.site-title a::after {
+  content: '▊';
+  margin-left: 6px;
+  animation: blink 1s steps(1) infinite;
+  color: #7CFC00;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+
