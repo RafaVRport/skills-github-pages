@@ -1,10 +1,23 @@
 ---
 ---
 
-@import "minima";
+@import "minima"; /* keep the theme structure */
 
-/* Your custom styles here */
+/* === Terminal-inspired styles === */
+
 body {
-  background-color: #1c1c1c;
-  color: #90ee90;
+  background-color: #1c1c1c;    // dark grey
+  color: #90ee90;               // light green text
+  font-family: 'Courier New', monospace;
+}
+
+a {
+  color: #7CFC00;
+}
+a:hover {
+  color: #ADFF2F;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #98fb98;
 }
