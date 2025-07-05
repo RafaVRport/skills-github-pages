@@ -1,4 +1,8 @@
 theme: minima
+
+sass:
+  style: compressed
+
 title: RafaVR's Portfolio
 description: This is where I'll be sharing my Projects
 author: Rafa VR
