@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #98fb98;
 }
 
+a, a:visited, a:active, a:focus {
+  color: orange !important;
+}
+
 /* === Shell prompt-style underline for site title === */
 .site-title a {
   position: relative;
